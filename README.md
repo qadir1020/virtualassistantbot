@@ -12,4 +12,4 @@ Send email/email : Follow up questions such as recipient name, content will be a
 Tell a joke/another joke : Says a random dad joke.
 Current weather in {cityname} : Tells you the current condition and temperture
 weather forecast in {cityname} : Tells you the condition, highest and lowest temperture of the next two days
-What's up
+
