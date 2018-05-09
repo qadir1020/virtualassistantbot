@@ -60,14 +60,7 @@ def assistant(command):
         
     elif 'video of' in command:                                                            #what happens when vid keyword is recognized
 
-              #  words = message.split()
-              #  del words[0:2]
-               # st = ' '.join(words)
-                #print('Video Results for: '+str(st))
-                #url='https://www.youtube.com/results?search_query='+st
-                #webbrowser.open(url)
-                #v.speak('Video Results for: '+str(st))
-                
+            
             reg_ex = re.search('video of (.+)', command)
             if reg_ex:
                 domain = reg_ex.group(1)
